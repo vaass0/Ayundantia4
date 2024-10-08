@@ -88,7 +88,7 @@ public class Libro {
     }
     @Override
     public String toString(){
-        return "Titulo: "+this.titulo+"Autor: "+this.autor+"Genero: "+this.genero+"ISBN: "+this.isbn+"Cantidad: "+this.cantidadDisponible+"Disponibilidad: "+this.disponible;
+        return "Titulo: "+this.titulo+" Autor: "+this.autor+" Genero: "+this.genero+" ISBN: "+this.isbn+" Cantidad: "+this.cantidadDisponible+" Disponibilidad: "+this.disponible;
     }
     public void mostrarInfo(){
         System.out.println(toString());
